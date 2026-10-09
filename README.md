@@ -9,7 +9,7 @@ Aethelgard Ledger is a local [Model Context Protocol](https://modelcontextprotoc
 ## What it does
 
 - **Balanced journals or nothing.** Every posting must balance. If debits don't equal credits, the engine rejects the posting and returns the reason, so the agent can't book it.
-- **Multi-entity.** Companies, trusts and individuals across 9 jurisdictions, with subsidiaries that consolidate into a parent.
+- **Multi-entity.** Companies, trusts and individuals across 9 jurisdictions, with subsidiaries linked to a parent and a combined group trial balance. This is a straight sum by account code, not a full consolidation; eliminations live in the Aethelgard desktop app.
 - **Tamper-evident.** Every posting is linked into a per-entity SHA-256 hash-chain, so an entry edited outside the engine fails the integrity check. The chain is unkeyed. For independent assurance, record the latest chain hash (returned by `verify_integrity`) somewhere outside the ledger and compare it later.
 - **Local.** The ledger lives in a file on your machine and is never sent to us.
 
@@ -24,7 +24,7 @@ Aethelgard Ledger is a local [Model Context Protocol](https://modelcontextprotoc
 | `list_accounts` | List an entity's chart of accounts |
 | `list_transactions` | List postings with every journal line, filtered by date |
 | `trial_balance` | Trial balance for one entity |
-| `consolidate` | Consolidated trial balance for a parent and its subsidiaries |
+| `consolidate` | Combined trial balance for a parent and its direct subsidiaries, summed by account code (no intercompany eliminations) |
 | `verify_integrity` | Verify the hash-chain and return the latest chain hash |
 
 ## Download
