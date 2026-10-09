@@ -1,0 +1,88 @@
+AETHELGARD LEDGER — EVALUATION LICENCE
+Version 1.1
+
+Copyright (c) 2026 Aethelgard Finance Ltd, a company registered in England and
+Wales (Company No. 17173295) ("we", "us"). All rights reserved.
+
+This licence governs your use of the Aethelgard Ledger MCP server in binary
+form and its accompanying documentation (the "Software"). Please read it
+before installing the Software. By installing or using the Software you
+accept it on behalf of yourself and the business you represent. If you do
+not accept it, do not install or use the Software.
+
+1. WHO MAY USE IT
+   The Software is licensed for business use only: to individuals acting for
+   their trade, business or profession, and to organisations. It is not
+   offered to consumers.
+
+2. GRANT
+   We grant you a free, non-exclusive, non-transferable, revocable licence to
+   install and use the Software to evaluate it, including internal pilots and
+   testing with AI agents. You may use real data while evaluating.
+
+3. RESTRICTIONS
+   You must not:
+   (a) use the Software as your system of record, or rely on its output for
+       any statutory, regulatory, tax, audit or financial-reporting purpose,
+       or for any decision, without verifying that output independently;
+   (b) sell, rent, lease, sublicense, distribute or make the Software
+       available to third parties, including as a hosted or managed service;
+   (c) modify, adapt, decompile, disassemble or reverse engineer the
+       Software, except to the extent applicable law expressly permits this
+       despite this restriction;
+   (d) remove or alter any proprietary notices in the Software; or
+   (e) use the Software in breach of applicable sanctions or export laws.
+
+4. YOUR DATA
+   The Software runs on your own machine and stores its ledger in a file you
+   control. It does not send your ledger data to us. When you connect the
+   Software to an MCP client and AI model, the data the tools return is sent
+   to that client and model provider under their terms, not ours; choose them
+   accordingly. This evaluation build does not encrypt the ledger file, and
+   you are responsible for protecting it.
+
+5. NO WARRANTY
+   The Software is an evaluation build provided "as is" and "as available".
+   To the extent permitted by law, we give no warranty, express or implied,
+   including as to satisfactory quality, fitness for purpose, accuracy, or
+   non-infringement.
+
+6. LIABILITY
+   6.1 Nothing in this licence limits or excludes our liability for death or
+       personal injury caused by our negligence, for fraud or fraudulent
+       misrepresentation, or for any other liability that cannot lawfully be
+       limited or excluded.
+   6.2 Subject to 6.1, we are not liable, whether in contract, tort
+       (including negligence), breach of statutory duty or otherwise, for any
+       loss of profits, revenue, business, data or goodwill, or any indirect
+       or consequential loss, arising from the Software or this licence.
+   6.3 Subject to 6.1, our total liability arising out of or in connection
+       with the Software or this licence, however arising (including in
+       negligence), is limited to GBP 100.
+
+7. FEEDBACK
+   If you give us suggestions or feedback about the Software, we may use it
+   for any purpose without obligation to you.
+
+8. TERMINATION
+   This licence ends automatically if you breach it. We may end it, or
+   withdraw the Software, at any time by notice to you or by publishing
+   notice on the Aethelgard Ledger repository or our website. On termination
+   you must stop using and delete the Software. Your ledger files remain
+   yours. Clauses 4 to 7 and 9 to 10 survive termination.
+
+9. THIRD-PARTY COMPONENTS
+   The Software includes open-source components licensed under their own
+   terms, listed with their notices in THIRD-PARTY-NOTICES.txt. Nothing in
+   this licence restricts any right you have under those terms.
+
+10. GENERAL
+   This licence is the entire agreement between us about the Software
+   (nothing limits liability for fraudulent misrepresentation). If any part
+   is found unenforceable, the rest continues in effect. No one other than
+   you and us has any right to enforce it. You may not transfer it; we may.
+   We may publish new versions; a new version applies to Software you obtain
+   after it is published. Production or commercial use requires a separate
+   licence: contact@aethelgard.finance. This licence is governed by the laws
+   of England and Wales, and the courts of England and Wales have exclusive
+   jurisdiction.
